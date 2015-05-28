@@ -113,3 +113,22 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => taglist
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+nnoremap <silent> <F8> :TlistToggle<CR>
+let Tlist_Close_On_Select=0
+let Tlist_Exit_OnlyWindow=1
+let Tlist_Use_Right_Window=1
+let Tlist_Show_One_File=0
+let Tlist_File_Fold_Auto_Close=1
+let Tlist_Auto_Open=1
+let Tlist_Auto_Update=1
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => omnicppcomplete
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set completeopt=menu
