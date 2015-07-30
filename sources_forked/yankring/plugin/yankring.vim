@@ -206,11 +206,11 @@ if !exists('g:yankring_paste_check_default_buffer')
 endif
 
 if !exists('g:yankring_replace_n_pkey')
-    let g:yankring_replace_n_pkey = '<C-P>'
+    let g:yankring_replace_n_pkey = '<M-P>'
 endif
 
 if !exists('g:yankring_replace_n_nkey')
-    let g:yankring_replace_n_nkey = '<C-N>'
+    let g:yankring_replace_n_nkey = '<M-N>'
 endif
 
 if !exists('g:yankring_clipboard_monitor')
